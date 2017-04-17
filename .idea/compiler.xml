@@ -29,8 +29,7 @@
         <module name="taotao-manager-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="taotao-comm" target="1.7" />
+    <bytecodeTargetLevel target="1.7">
       <module name="taotao-common" target="1.7" />
       <module name="taotao-manager" target="1.7" />
       <module name="taotao-manager-dao" target="1.7" />

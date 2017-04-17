@@ -7,6 +7,7 @@
       <root url="jar://$MAVEN_REPOSITORY$/com/leiyu/taotao-manager-pojo/0.0.1-SNAPSHOT/taotao-manager-pojo-0.0.1-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/taotao-manager-pojo/src/main/java" />
       <root url="jar://$MAVEN_REPOSITORY$/com/leiyu/taotao-manager-pojo/0.0.1-SNAPSHOT/taotao-manager-pojo-0.0.1-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
