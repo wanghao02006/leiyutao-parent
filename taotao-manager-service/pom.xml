@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>taotao-manager</artifactId>
-        <groupId>com.taotao</groupId>
+        <groupId>com.leiyu</groupId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../taotao-manager/pom.xml</relativePath>
     </parent>
@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.taotao</groupId>
+            <groupId>com.leiyu</groupId>
             <artifactId>taotao-manager-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
