@@ -15,11 +15,11 @@
 
     <!-- 添加依赖 -->
     <dependencies>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.leiyu</groupId>
             <artifactId>taotao-manager-pojo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
         <!-- Mybatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
