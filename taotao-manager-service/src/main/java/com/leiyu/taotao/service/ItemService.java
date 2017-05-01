@@ -1,5 +1,6 @@
 package com.leiyu.taotao.service;
 
+import com.leiyu.taotao.common.pojo.EasyUIDataGridResut;
 import com.leiyu.taotao.pojo.TbItem;
 import com.leiyu.taotao.pojo.TbItemDesc;
 
@@ -9,5 +10,7 @@ import com.leiyu.taotao.pojo.TbItemDesc;
 public interface ItemService {
 
     TbItem getItemById(long itemId);
+
+    EasyUIDataGridResut getItemList(Integer page,Integer rows);
 
 }

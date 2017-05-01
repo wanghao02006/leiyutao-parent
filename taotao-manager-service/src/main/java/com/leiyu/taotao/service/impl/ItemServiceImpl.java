@@ -1,5 +1,8 @@
 package com.leiyu.taotao.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.leiyu.taotao.common.pojo.EasyUIDataGridResut;
 import com.leiyu.taotao.mapper.TbItemMapper;
 import com.leiyu.taotao.pojo.TbItem;
 import com.leiyu.taotao.pojo.TbItemExample;
@@ -33,5 +36,16 @@ public class ItemServiceImpl implements ItemService{
 //        }
         return item;
 
+    }
+
+    @Override
+    public EasyUIDataGridResut getItemList(Integer page, Integer rows) {
+        PageHelper.startPage(page,rows);
+        TbItemExample example = new TbItemExample();
+        List<TbItem> list = itemMapper.selectByExample(example);
+        PageInfo<TbItem> pageInfo = new PageInfo<TbItem>(list);
+
+        EasyUIDataGridResut resut = new EasyUIDataGridResut(pageInfo.getTotal(),list);
+        return resut;
     }
 }
